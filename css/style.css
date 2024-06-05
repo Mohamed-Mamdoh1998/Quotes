@@ -1,0 +1,37 @@
+body {
+    background-image: url(../imgs/black-textured-background.jpg);
+    color: white;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 2.1875rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.styling {
+    background-color: #1A2130;
+    min-height: 300px;
+    padding: 10px;
+}
+
+button {
+    width: 250px;
+    height: 80px;
+    background-color: transparent;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #fff;
+    transition: all 400ms;
+    &:hover {
+        background-color: #005B41;
+        border-color: transparent;
+    }
+}
